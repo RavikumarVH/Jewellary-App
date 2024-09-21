@@ -24,10 +24,17 @@ st.write("## Image Classifications")
 st.write(
     "Application only will support for **Bracelets**, **Kasumalai**, **Rings**"
 )
-st.sidebar.write("## Upload and download :gear:")
+st.sidebar.write("## Upload Image :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 
+st.write("Username:", st.secrets["db_username"])
+st.write("Password:", st.secrets["db_password"])
+
+st.write(
+    "Has environment variables been set:",
+    os.environ["db_username"] == st.secrets["db_username"],
+)
 
 model_ckpt = "google/vit-base-patch16-224"
 extractor = AutoFeatureExtractor.from_pretrained(model_ckpt)
