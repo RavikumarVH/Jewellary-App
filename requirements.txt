@@ -1,0 +1,9 @@
+transformers
+pandas 
+numpy
+matplotlib
+seaborn
+rembg
+streamlit
+torch
+datasets

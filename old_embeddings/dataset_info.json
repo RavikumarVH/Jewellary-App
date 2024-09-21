@@ -1,0 +1,220 @@
+{
+  "builder_name": "imagefolder",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "imagefolder",
+  "dataset_size": 4090,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/1.jpg": {
+      "num_bytes": 47649,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/10.jpg": {
+      "num_bytes": 33280,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/11.jpg": {
+      "num_bytes": 46733,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/12.jpg": {
+      "num_bytes": 26367,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/13.jpg": {
+      "num_bytes": 33357,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/14.jpg": {
+      "num_bytes": 16180,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/15.jpg": {
+      "num_bytes": 13608,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/16.jpg": {
+      "num_bytes": 25035,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/2.jpg": {
+      "num_bytes": 40550,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/3.jpg": {
+      "num_bytes": 74880,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/4.jpg": {
+      "num_bytes": 31723,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/5.jpg": {
+      "num_bytes": 35738,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/6.jpg": {
+      "num_bytes": 29492,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/7.jpg": {
+      "num_bytes": 41847,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/8.jpg": {
+      "num_bytes": 33562,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Bracelets/9.jpg": {
+      "num_bytes": 92634,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/1.jpg": {
+      "num_bytes": 58203,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/10.jpg": {
+      "num_bytes": 39100,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/11.jpg": {
+      "num_bytes": 41334,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/12.jpg": {
+      "num_bytes": 83809,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/2.jpg": {
+      "num_bytes": 30910,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/3.jpg": {
+      "num_bytes": 51025,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/4.jpg": {
+      "num_bytes": 59272,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/5.jpg": {
+      "num_bytes": 60560,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/6.jpg": {
+      "num_bytes": 79981,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/7.jpg": {
+      "num_bytes": 9533,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/8.jpg": {
+      "num_bytes": 48753,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Kasumalai/9.jpg": {
+      "num_bytes": 33939,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/1.jpg": {
+      "num_bytes": 17739,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/10.jpg": {
+      "num_bytes": 25391,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/11.jpg": {
+      "num_bytes": 30517,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/12.jpg": {
+      "num_bytes": 27524,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/13.jpg": {
+      "num_bytes": 25230,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/14.jpg": {
+      "num_bytes": 20536,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/15.jpg": {
+      "num_bytes": 30007,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/2.jpg": {
+      "num_bytes": 12203,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/3.jpg": {
+      "num_bytes": 30870,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/4.jpg": {
+      "num_bytes": 14090,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/5.jpg": {
+      "num_bytes": 11515,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/6.jpg": {
+      "num_bytes": 22346,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/7.jpg": {
+      "num_bytes": 10756,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/8.jpg": {
+      "num_bytes": 14525,
+      "checksum": null
+    },
+    "C:/Users/ravik/Ravi/Projects/Gold_ImageSimilarity/datasets/train/Rings/9.jpg": {
+      "num_bytes": 60328,
+      "checksum": null
+    }
+  },
+  "download_size": 1572631,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "label": {
+      "names": [
+        "Bracelets",
+        "Kasumalai",
+        "Rings"
+      ],
+      "_type": "ClassLabel"
+    },
+    "embeddings": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1576721,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 4090,
+      "num_examples": 43,
+      "dataset_name": "imagefolder"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
