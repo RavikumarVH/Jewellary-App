@@ -7,5 +7,4 @@ rembg
 streamlit
 torch
 datasets
-faiss-cpu
 faiss-gpu
