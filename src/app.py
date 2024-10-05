@@ -54,6 +54,7 @@ class Model:
     def __init__(self):
         # Load your model
         self.model = ViTModel.from_pretrained('google/vit-base-patch16-224')
+        self.feature_extractor = ViTModel.from_pretrained('google/vit-base-patch16-224')
         self.model.eval()
         
         # Load your FAISS index
@@ -70,43 +71,40 @@ class Model:
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
         ])
 
-    def predict(self, image):
-        image = self.transform(image).unsqueeze(0)  # Add batch dimension
+    def extract_features(self, image_path):
 
+        image = Image.open(image_path).convert("RGB")
+        image = self.transform(image).unsqueeze(0)
         with torch.no_grad():
-            output = self.model(image).last_hidden_state[:, 0, :].numpy()
+            features = self.model(image).last_hidden_state[:, 0, :]
+        return features.squeeze().numpy()
+    
 
-        D, I = self.index.search(output.astype('float32'), k=5)
+    def predict(self, image,k=5, threshold=0.05):
+        query_feature = imageModel.extract_features(image)
+        query_feature = np.array([query_feature]).astype('float32')
+        distances, indices = self.index.search(query_feature, k)
 
-        _k=5
+        predicted_metadata=[]
+        for i, idx in enumerate(indices[0]):
+            match_percentage = (1 - distances[0][i] / np.max(distances)) * 100
+            obj={}
+            if match_percentage >= threshold:  # Check against threshold
+                obj["Product Image"]=image_formatter(self.file_mapping[idx]["file"])
+                obj["Category"]=self.file_mapping[idx]["label"]
+                obj["SubCategory"]=self.file_mapping[idx].get("product", "N/A")
+                obj["Scores"]=round(match_percentage, 2)
+                predicted_metadata.append(obj)
+               
+              
 
-        # Define a threshold and calculate matching percentage
-        threshold = 0.5  # Example threshold
-
-        # Calculate match percentages for all k values
-        match_percentages = []
-
-        for k in range(1, _k + 1):
-            # Count how many distances are below the threshold for the first k neighbors
-            matches = np.sum(D[0, :k] < threshold)
-            match_percentage = (matches / k) * 100
-            match_percentages.append(round(match_percentage,2))
-        
-        predicted_metadata = [
-            {
-                "Product_Image": image_formatter(self.file_mapping[idx]["file"]),
-                "Category": self.file_mapping[idx]["label"],
-                "SubCategory": self.file_mapping[idx].get("product", "N/A"),
-                "Scores": match_percentages[i]
-
-            }
-            for i,idx in enumerate(I[0])
-        ]
+        if not predicted_metadata:
+            st.markdown(":red No matching products found.")
         
         return predicted_metadata
 
 # Instantiate the model
-model = Model()
+imageModel = Model()
 
 # Streamlit UI
 uploaded_file = st.sidebar.file_uploader("", type=["png", "jpg", "jpeg"])
@@ -122,7 +120,7 @@ if uploaded_file is not None:
         st.markdown("# Input Image:")
         st.image(image, caption='Uploaded Image.',  width=200)
         # Make predictions
-        predictions = model.predict(image)
+        predictions = imageModel.predict(uploaded_file)
         df = pd.DataFrame(predictions)
         df.index = np.arange(1, len(df) + 1)
         html = convert_df(df)

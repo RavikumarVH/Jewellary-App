@@ -1,115 +1,96 @@
 {
     "images": [
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/1.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/1.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/2.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/2.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/3.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/3.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/4.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/4.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/5.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/5.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/6.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/6.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Lakshmi Necklace/7.png",
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/7.jpg",
         "label": "Kasumalai",
-        "product": "Lakshmi Necklace"
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/1.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/8.jpg",
+        "label": "Kasumalai",
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/2.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/9.jpg",
+        "label": "Kasumalai",
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/2.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Long Necklace/10.jpg",
+        "label": "Kasumalai",
+        "product": "Long Necklace"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/3.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/1.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/4.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/2.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/5.jpg",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/3.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Cuff/6.png",
-        "label": "Bracelets",
-        "product": "Cuff"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/4.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/1.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/5.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/2.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/6.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/2.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/7.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
     {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/3.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
+        "file": "/mount/src/jewellary-app/datasets/Kasumalai/Kaasu Maalai/8.jpg",
+        "label": "Kasumalai",
+        "product": "Kaasu Maalai"
     },
-    {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/4.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
-    },
-    {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/5.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
-    },
-    {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/6.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
-    },
-    {
-        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/7.jpg",
-        "label": "Bracelets",
-        "product": "Chain"
-    },
+
     {
         "file": "/mount/src/jewellary-app/datasets/Rings/Casuals/1.jpg",
         "label": "Rings",
@@ -159,7 +140,102 @@
         "file": "/mount/src/jewellary-app/datasets/Rings/Engagement/5.jpg",
         "label": "Rings",
         "product": "Engagement"
-    }
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/1.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/2.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/3.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/4.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/5.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/6.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/7.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/8.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/9.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/10.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Charms/11.jpg",
+        "label": "Bracelets",
+        "product": "Charms"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/7.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/8.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/1.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/2.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/3.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/4.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/5.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
+    {
+        "file": "/mount/src/jewellary-app/datasets/Bracelets/Chain/6.jpg",
+        "label": "Bracelets",
+        "product": "Chain"
+    },
     
 ]
 }
