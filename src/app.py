@@ -60,7 +60,7 @@ class Model:
         self.index = faiss.read_index(r"faiss_index.index")  # Adjust the path as necessary
 
         # Load file mapping
-        with open("datasets/data_local.json") as f:
+        with open("datasets/data.json") as f:
             self.file_mapping = json.load(f)["images"]
 
         # Define transformations
