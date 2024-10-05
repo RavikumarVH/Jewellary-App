@@ -13,6 +13,7 @@ import glob
 import base64
 from io import BytesIO
 import os
+import numpy as np
 
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
@@ -59,7 +60,7 @@ class Model:
         self.index = faiss.read_index(r"faiss_index.index")  # Adjust the path as necessary
 
         # Load file mapping
-        with open("datasets/data.json") as f:
+        with open("datasets/data_local.json") as f:
             self.file_mapping = json.load(f)["images"]
 
         # Define transformations
@@ -76,14 +77,30 @@ class Model:
             output = self.model(image).last_hidden_state[:, 0, :].numpy()
 
         D, I = self.index.search(output.astype('float32'), k=5)
+
+        _k=5
+
+        # Define a threshold and calculate matching percentage
+        threshold = 0.5  # Example threshold
+
+        # Calculate match percentages for all k values
+        match_percentages = []
+
+        for k in range(1, _k + 1):
+            # Count how many distances are below the threshold for the first k neighbors
+            matches = np.sum(D[0, :k] < threshold)
+            match_percentage = (matches / k) * 100
+            match_percentages.append(round(match_percentage,2))
         
         predicted_metadata = [
             {
-                "file": image_formatter(self.file_mapping[idx]["file"]),
-                "label": self.file_mapping[idx]["label"],
-                "product": self.file_mapping[idx].get("product", "N/A")
+                "Product_Image": image_formatter(self.file_mapping[idx]["file"]),
+                "Category": self.file_mapping[idx]["label"],
+                "SubCategory": self.file_mapping[idx].get("product", "N/A"),
+                "Scores": match_percentages[i]
+
             }
-            for idx in I[0]
+            for i,idx in enumerate(I[0])
         ]
         
         return predicted_metadata
@@ -107,11 +124,12 @@ if uploaded_file is not None:
         # Make predictions
         predictions = model.predict(image)
         df = pd.DataFrame(predictions)
+        df.index = np.arange(1, len(df) + 1)
         html = convert_df(df)
     
         # Display predictions
         st.markdown("# Image Predictions Results:")
-        st.markdown(f"##### Images Category is :green[{predictions[0]["label"]}] and Sub category is a  :violet[{predictions[0]["product"]}]")
+        st.markdown(f"##### Images Category is :green[{predictions[0]["Category"]}] and Sub category is a  :violet[{predictions[0]["SubCategory"]}]")
         #st.markdown(f"##### Images Sub Category is :violet[{predictions[0]["product"]}]")
 
         st.markdown(
